@@ -9,8 +9,8 @@
         <% messages.forEach((message,index) => { %>
             <p><b><%= message.user%>:</b><%= message.text %></p>
             <p>added in : <%= message.added %> </p>
-            <button><a href="http://localhost:3000/message/<%= index %>">Open</a></button>
+            <button><a href="/message/<%= index %>">Open</a></button>
         <% }) %>
-        <a href="http://localhost:3000/new" target="_self" rel="noopener noreferrer">Add message</a>
+        <a href="/new" target="_self" rel="noopener noreferrer">Add message</a>
     </body>
 </html>
