@@ -10,10 +10,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "dotenv": "^18.0.9",
     "ejs": "^7.0.1",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "pg": "^8.23.1"
   },
-  "engines":{
-    "node":">=22"
+  "engines": {
+    "node": ">=22"
   }
 }
