@@ -10,9 +10,9 @@
             <h1>Message Details</h1>
 
             <div class="detail-card">
-                <p><b>Sender Name:</b> <%= user %></p>
-                <p><b>Text:</b> <%= text %></p>
-                <p><b>Added Date:</b> <%= added %></p>
+                <p><b>Sender Name:</b> <%= message.username %></p>
+                <p><b>Text:</b> <%= message.message %></p>
+                <p><b>Added Date:</b> <%= message.added %></p>
 
                 <a href="/" class="back-button">← Back to Messages</a>
             </div>
