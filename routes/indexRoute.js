@@ -9,7 +9,7 @@ indexRouter.get("/new",messageController.displayForm)
 
 indexRouter.post("/new",messageController.addMessage)
 
-indexRouter.get("/message/:index",messageController.getSpecificMessage)
+indexRouter.get("/message/:key",messageController.getSpecificMessage)
 
 module.exports = indexRouter
 

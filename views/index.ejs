@@ -7,11 +7,9 @@
     <body>
         <h1>Messages</h1>
         <% messages.forEach((message) => { %>
-        <div key = <%=message.id%>>
             <p><b><%= message.username%>:</b><%= message.message %></p>
             <p>added in : <%= message.added %> </p>
             <button><a href="/message/<%= message.id %>">Open</a></button>
-        </div>
         <% }) %>
         <a href="/new" target="_self" rel="noopener noreferrer">Add message</a>
     </body>
